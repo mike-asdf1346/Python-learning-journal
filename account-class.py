@@ -1,3 +1,4 @@
+# This is a small hw for me to practice, without any online searching or AI coding, all by my hands and mind.
 class Account:
     def __init__(self, name, balance=0):
         self.name = name 
