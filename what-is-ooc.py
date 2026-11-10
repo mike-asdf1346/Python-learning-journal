@@ -47,6 +47,6 @@ class Bank_Account:
     def withdraw(self, amount):
         if 0 < amount <= self.__bal:
             self.__bal -= amount
-# __bal = _Wallet_balance__balance which harder to have a name collisions, hard to access by accident though it is not strictly lockdown
+# __bal = _Wallet_balance__balance which harder to have a name collision, harder to access by accident though it is not strictly lockdown
 
 
