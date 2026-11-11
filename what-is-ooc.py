@@ -1,5 +1,5 @@
 # Object-oriented-programming, also known as OOC, whcih we treat every objects here as real-world object
-# Article source: FreeCodeCamp 'What Is Object-Oriented Programming, and How Does Encapsulation Work?'
+# Reference: FreeCodeCamp 'What Is Object-Oriented Programming, and How Does Encapsulation Work?'
 class Pc: 
     def __init__(self, ram, storage, gpu, cpu):
         self.ram = ram 
