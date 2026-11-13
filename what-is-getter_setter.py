@@ -46,16 +46,17 @@ class Account:
         if value <= 0:
             raise ValueError("You cannot enter a number that is equal to 0 or below")
 
-        return None
-
-mike = Account('Mike', 1000) # creates a new obj
-mike.name = "Jelly Pie"
-mike.bal = 6000
-print(mike.name)
 
 
-if '__name__' == '__main__':
-    for _ in range(100): # costs you 67
+
+if __name__ == '__main__':
+
+    mike = Account('Mike', 1000) # creates a new obj
+    mike.name = "Jelly Pie"
+    mike.bal = 6000
+    print(mike.name)
+
+    for _ in range(10): # costs you 67
         print(mike.withdraw(67))
         print(mike.show_bal())
         t(0.1)
