@@ -53,7 +53,12 @@ mike.name = "Jelly Pie"
 mike.bal = 6000
 print(mike.name)
 
-for _ in range(100):
+for _ in range(100): # costs you 67
     print(mike.withdraw(67))
     print(mike.show_bal())
     t(0.1)
+
+# for _ in range(100): # grants you 67
+#     print(mike.withdraw(67))
+#     print(mike.show_bal())
+#     t(0.1)
