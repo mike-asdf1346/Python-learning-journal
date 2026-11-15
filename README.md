@@ -4,7 +4,7 @@ And most importantly, this is also a look back for myself, as well as a progress
 Lastly, I will update as soon as I have time to push! And don't forget to check out my blog!    
 This is my blog ---> [My-Blog](https://mike-asdf1346.github.io/)   
    
-## 酷酷的進度條
+## 1. 酷酷的進度條
 ![progress-bar](./img/image.png)
 可惜我沒辦法用影片QQ   
 code:   
@@ -18,4 +18,4 @@ for i in range(1, n + 1):
 print("\nDownload Succeed!")
 ```   
    
-## TODO
+## 2. TODO
