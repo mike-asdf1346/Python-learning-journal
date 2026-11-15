@@ -11,3 +11,4 @@ while True:
 
 for i in data:
     print(i)
+    # 晚點做...
