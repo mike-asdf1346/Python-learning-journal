@@ -6,7 +6,7 @@ This is my blog ---> [My-Blog](https://mike-asdf1346.github.io/)
    
 ## 酷酷的進度條
 ![progress-bar](./img/image.png)
-可惜我沒辦法影片QQ   
+可惜我沒辦法用影片QQ   
 code:   
 ```
 from time import sleep as t
