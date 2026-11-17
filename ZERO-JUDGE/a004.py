@@ -1,14 +1,15 @@
-data = []
-while True:
-    try:
-        user = int(input())
-        if user % 4 == 0 and user % 100 != 0:
-            data.append("西元")
-        else:
-            data.append("閏年")
-    except:
-        break
-
-for i in data:
-    print(i)
-    # 晚點做...
+try:
+    list1 = []
+    while True:
+        year = int(input())
+        if year % 4 == 0 and year % 100 != 0:
+            list1.append("閏年")
+        if year % 400 == 0:
+            list1.append("閏年")
+        if year % 4 != 0:
+            list1.append("平年")
+        if year % 100 == 0 and year % 400 != 0:
+            list1.append("平年")
+except:
+    for i in list1:
+        print(i)
